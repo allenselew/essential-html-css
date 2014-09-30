@@ -42,6 +42,7 @@ header p {
 .menu dt {
 	font-family: 'Lato';
 	font-weight: 700;
+	font-size: 18px;
 }
 
 .menu dd {
