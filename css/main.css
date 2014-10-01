@@ -1,11 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:300, 400);
 
 body { 
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
 }
 
 main {
@@ -40,8 +43,7 @@ header p {
 }
 
 .menu dt {
-	font-family: 'Lato';
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 18px;
 }
 
@@ -80,12 +82,6 @@ h2 {
 
 h3 {
 	font-size: 125%;
-}
-
-p { 
-	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
-	font-size: 18px;
-	font-weight: 300;
 }
 
 a:link, a:visited {
